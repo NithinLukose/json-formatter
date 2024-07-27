@@ -1,0 +1,80 @@
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.textarea {
+  width: 100%;
+  max-width: 600px;
+  height: 150px;
+  margin-bottom: 1rem;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  font-family: monospace;
+  resize: none;
+  color: black;
+}
+
+.output {
+  width: 100%;
+  max-width: 600px;
+  height: 150px;
+  margin-top: 1rem;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  font-family: monospace;
+  resize: none;
+  background-color: #f4f4f4;
+  color: black;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+.copyButton {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.copyButton:hover {
+  background-color: #2980b9;
+}
+
+.error {
+  color: #e74c3c;
+  margin-top: 1rem;
+  font-weight: bold;
+}
