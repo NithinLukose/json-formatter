@@ -16,7 +16,11 @@ export default function FormatterPage() {
       setError("");
     } catch (err) {
       setOutput("");
-      setError("Invalid JSON: " + err.message);
+      if (err instanceof Error) {
+        setError("Invalid JSON: " + err.message);
+      } else {
+        setError("Invalid JSON: ");
+      }
     }
   };
 

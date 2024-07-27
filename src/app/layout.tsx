@@ -3,9 +3,10 @@ export const metadata = {
   description: "A simple JSON Formatter App using Next.js App Router",
 };
 
+import { ReactNode } from "react";
 import "./globals.css";
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <body>
